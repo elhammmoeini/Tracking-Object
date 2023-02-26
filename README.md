@@ -1,7 +1,7 @@
 # Sulotion to Stroma's Machine Learning Engineering Challenge!
 
 Here I utilized the most recent object detection and tracking algorithm in order to detect and track predefined objects in SMLE challenge.
-in the following sections you'll find out how to use this repo and achieve high performance tracking results usabale on jetson nano chips.
+in the following sections you'll find out how to use this repo and achieve high performance tracking results usable on jetson nano chips.
 
 ## Description
 
@@ -41,7 +41,7 @@ there are 3 modules in the repo :
 
 #### Retrain Yolo-v8
 
-if you wish to retrain the model you first need to reformat dataset to yolo acceptable ones, to do so, first download the dataset and extract it under "raw_dataset" directory (at the same level with cook_dataset.py) the use :
+if you wish to retrain the model you first need to reformat dataset to yolo acceptable ones, to do so, first download the dataset and extract it under "raw_dataset" directory (at the same level with cook_dataset.py) then use :
 ```
 python cook_dataset.py
 ```
