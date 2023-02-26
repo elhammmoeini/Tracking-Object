@@ -13,7 +13,8 @@ in order to detect objects I used the most recent Yolo-v8 from yolo family which
 
 Frist clone the repo and create virtual environment inside it using : 
 ```
-cd "repo address"
+git clone https://github.com/elhammmoeini/stormavision.git
+cd stormavision
 python -m venv venv
 (if you know your python version use pythonX.X for ex. python3.8)
 ```
