@@ -32,7 +32,9 @@ pip install -r requirements.txt
 
 there are 3 modules in the repo :
 1 - cook_dataset.py
+
 2 - yolo_v8_train.py
+
 3 - yolo_v8_tracking.py
 
 #### Retrain Yolo-v8
@@ -71,9 +73,7 @@ python yolo_v8_tracking.py
 
 ## Authors
 
-
-Elham Moeini  
-[@Elham Moeini](https://www.linkedin.com/in/elham-moeini-6178257a/)
+[Elham Moeini](https://www.linkedin.com/in/elham-moeini-6178257a/)
 
 ## License
 
@@ -81,6 +81,7 @@ This project is licensed under the [Stroma-Vision] License.
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+References :
+
 * [yolo-v8 ultralytics](https://github.com/ultralytics/ultralytics)
 * [ByteTrack algorithm](https://github.com/ifzhang/ByteTrack)
