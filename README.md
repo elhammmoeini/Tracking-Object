@@ -59,12 +59,26 @@ you will be asked to enter dataset type, your options are  : train/val/test. do 
 ├── yolo_v8_tracking.py
 └── yolo_v8_train.py
 ```
+now create "CustomDataset.yml" file under "datasets" directory and write following lines to it :
+```
+path: cooked_dataset/
+train: train/images
+val: val/images
+test: 
+
+names:
+  0: bolt
+  1: nut
+```
 once everything is ok as similar as above just run :
 
 ```
 python yolo_v8_train.py
 ```
-it takes 5 epochs to finish training with high accuracy.
+it takes 5 epochs to finish training with high accuracy. after training finished you can find trained weights under :
+```
+runs/detect/train{i}/weights
+```
 
 #### Inference with tracking
 
