@@ -1,4 +1,4 @@
-# Sulotion to Stroma's Machine Learning Engineering Challenge!
+# Object Tracking
 
 Here I utilized the most recent object detection and tracking algorithm in order to detect and track predefined objects in SMLE challenge.
 in the following sections you'll find out how to use this repo and achieve high performance tracking results usable on jetson nano chips.
