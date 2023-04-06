@@ -14,7 +14,7 @@ in order to detect objects I used the most recent Yolo-v8 from yolo family which
 Frist clone the repo and create virtual environment inside it using : 
 ```
 git clone https://github.com/elhammmoeini/Tracking-Object.git
-cd stormavision
+cd "Tracking-Object"
 python -m venv venv
 (if you know your python version use pythonX.X for ex. python3.8)
 ```
